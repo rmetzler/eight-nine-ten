@@ -1,7 +1,21 @@
 {
-  "name": "eightnine-grid",
+  "name": "eight-nine-ten",
   "version": "0.0.0",
+  "homepage": "https://github.com/rmetzler/eight-nine-ten",
+  "authors": [
+    "Richard Metzler <richard@eaglefeed.me>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-  },
-  "devDependencies": {}
+    "requirejs": "~2.1.8",
+    "underscore": "~1.5.2",
+    "jquery": "~2.0.3"
+  }
 }
