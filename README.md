@@ -6,4 +6,3 @@
 After cloning this repository run
 	
 	$ npm install
-
