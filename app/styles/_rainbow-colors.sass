@@ -1,0 +1,23 @@
+// a simple SASS example of looping through an array and creating classes out of it
+
+// TODO: refactor into mixin
+
+// colors of the rainbow
+$colors: #006BC1, #00BAEC, #FF00FF, #9F0092, #009B3F, #00FF00, #FCCF00, #FF7300, #FF0000, #E40000
+
+// loop through all colors ...
+@for $i from 1 through length($colors)
+  
+  // select color $i
+  $color: nth($colors, $i)
+  
+  // create a simple color class
+  .color#{$i - 1}
+    color: $color
+
+  // create a background-color class
+  .bg-color#{$i - 1}
+    background-color: $color
+
+.bg-white
+  background-color: #FFFFFF
