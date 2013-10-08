@@ -1,0 +1,44 @@
+
+; <<>> DiG 9.8.5-P1 <<>> google.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25976
+;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;google.com.			IN	A
+
+;; ANSWER SECTION:
+google.com.		270	IN	A	173.194.69.100
+google.com.		270	IN	A	173.194.69.102
+google.com.		270	IN	A	173.194.69.101
+google.com.		270	IN	A	173.194.69.113
+google.com.		270	IN	A	173.194.69.138
+google.com.		270	IN	A	173.194.69.139
+
+;; Query time: 21 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Fri Oct 04 16:36:45 CEST 2013
+;; MSG SIZE  rcvd: 124
+
+
+; <<>> DiG 9.8.5-P1 <<>> youtube.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 47629
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;youtube.com.			IN	A
+
+;; ANSWER SECTION:
+youtube.com.		300	IN	A	173.194.69.93
+youtube.com.		300	IN	A	173.194.69.91
+youtube.com.		300	IN	A	173.194.69.190
+youtube.com.		300	IN	A	173.194.69.136
+
+;; Query time: 166 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Fri Oct 04 16:36:52 CEST 2013
+;; MSG SIZE  rcvd: 93
+
