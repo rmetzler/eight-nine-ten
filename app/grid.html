@@ -5,94 +5,106 @@
 
   <link rel="stylesheet" href="/styles/style.css">
 
+  <!-- Typekit Fonts -->
+
+  <script type="text/javascript" src="//use.typekit.net/mpp5rch.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- TODO: export to SASS -->
+
 <style type="text/css">
 
-	/* poor programmer's reset */
-	*, *:before, *:after {
-		-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
-	}
+  /* poor programmer's reset */
+  *, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  }
 
-	div {padding: 0; margin: 0;}
+  div {padding: 0; margin: 0;}
 
 
-	/* create grid 1000px wide */
-	.content {
-		width:1008px;
-		margin: auto;
-	}
+  /* create grid 1000px wide */
+  .content {
+    width:1008px;
+    margin: auto;
+  }
 
-	.row8 {
-		float: left;
-		width: 1008px;
-	}
+  .text {
+    background-color:#e8e8e8;
+    padding:16px;
+  }
 
-	.row9 {
-		float:left;
-		width: 1008px;
-	}
+  .row8 {
+    float: left;
+    width: 1008px;
+  }
 
-	.row8 .span4 {
-		float: left;
-		width: 496px;
-		height: 496px;
-		margin-right: 8px;
-		margin-bottom: 8px;
-	}
+  .row9 {
+    float:left;
+    width: 1008px;
+  }
 
-	.row8 .span2 {
-		float: left;
-		width: 244px;
-		height: 244px;
-		margin-right: 8px;
-		margin-bottom: 8px;
-	}
+  .row8 .span4 {
+    float: left;
+    width: 496px;
+    height: 496px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
 
-	.row8 .span1 {
-		float: left;
-		width: 118px;
-		height: 118px;
-		margin-right: 8px;
-		margin-bottom: 8px;
-	}
+  .row8 .span2 {
+    float: left;
+    width: 244px;
+    height: 244px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
 
-	.row9 .span5 {
-		float: left;
-		width: 552px;
-		height: 552px;
-		margin-right: 8px;
-		margin-bottom: 8px;
-	}
+  .row8 .span1 {
+    float: left;
+    width: 118px;
+    height: 118px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
 
-	.row9 .span4 {
-		float: left;
-		width: 440px;
-		height: 440px;
-		margin-right: 8px;
-		margin-bottom: 8px;
-	}
+  .row9 .span5 {
+    float: left;
+    width: 552px;
+    height: 552px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
 
-	.row9 .span3 {
-		float: left;
-		width: 328px;
-		height: 328px;
-		margin-right: 8px;
-		margin-bottom: 8px;
-	}
+  .row9 .span4 {
+    float: left;
+    width: 440px;
+    height: 440px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
 
-	.row9 .span2 {
-		float: left;
-		width: 216px;
-		height: 216px;
-		margin-right: 8px;
-		margin-bottom: 8px;
-	}
-	.row9 .span1 {
-		float: left;
-		width: 104px;
-		height: 104px;
-		margin-right: 8px;
-		margin-bottom: 8px;
-	}
+  .row9 .span3 {
+    float: left;
+    width: 328px;
+    height: 328px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  .row9 .span2 {
+    float: left;
+    width: 216px;
+    height: 216px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+  .row9 .span1 {
+    float: left;
+    width: 104px;
+    height: 104px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
 
 </style>
 </head>
@@ -104,10 +116,27 @@
     <div class="row8">
       <div class="span4"><img src="http://lorempixel.com/496/496/sports/"></div>
 
-      <div class="span2"><img src="http://lorempixel.com/244/244/sports/"></div>
+      <div class="span4 text">
+
+        <h1>klikk.me Web & Apps</h1>
+        <h2>Wir entwickeln Apps und Web</h2>
+
+        <!-- start slipsum code -->
+
+        <p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.  </p>
+
+        <h2>I can do that</h2>
+        <p>Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb. </p>
+
+        <!-- end slipsum code -->
+
+      </div>
+
+
+      <!-- <div class="span2"><img src="http://lorempixel.com/244/244/sports/"></div>
       <div class="span2"><img src="http://placehold.it/244x244"></div>
       <div class="span2"><img src="http://lorempixel.com/244/244/sports/"></div>
-      <div class="span2"><img src="http://placehold.it/244x244"></div>
+      <div class="span2"><img src="http://placehold.it/244x244"></div> -->
 
       <div class="span2">
         <div class="span2"><img src="http://lorempixel.com/244/244/sports/"></div>
@@ -179,11 +208,11 @@
       <div class="span1"><img src="http://lorempixel.com/104/104/"></div>
       <div class="span1"><img src="http://placehold.it/104x104"></div>
       <div class="span1"><img src="http://placehold.it/104x104"></div>
-      
+
       <div class="span1"><img src="http://placehold.it/104x104"></div>
       <div class="span1"><img src="http://lorempixel.com/104/104/"></div>
       <div class="span1"><img src="http://placehold.it/104x104"></div>
-      
+
       <div class="span1"><img src="http://placehold.it/104x104"></div>
       <div class="span1"><img src="http://placehold.it/104x104"></div>
       <div class="span1"><img src="http://lorempixel.com/104/104/"></div>
@@ -195,11 +224,11 @@
       <div class="span1"><img src="http://lorempixel.com/104/104/"></div>
       <div class="span1"><img src="http://placehold.it/104x104"></div>
       <div class="span1"><img src="http://placehold.it/104x104"></div>
-      
+
       <div class="span1"><img src="http://placehold.it/104x104"></div>
       <div class="span1"><img src="http://lorempixel.com/104/104/"></div>
       <div class="span1"><img src="http://placehold.it/104x104"></div>
-      
+
       <div class="span1"><img src="http://placehold.it/104x104"></div>
       <div class="span1"><img src="http://placehold.it/104x104"></div>
       <div class="span1"><img src="http://lorempixel.com/104/104/"></div>
@@ -215,7 +244,7 @@
 
       <div class="span1"><img src="http://lorempixel.com/118/118/sports/"></div>
       <div class="span1"><img src="http://placehold.it/118x118"></div>
-  
+
       <div class="span1"><img src="http://lorempixel.com/118/118/sports/"></div>
       <div class="span1"><img src="http://placehold.it/118x118"></div>
 
@@ -227,9 +256,9 @@
       <div class="span1"><img src="http://lorempixel.com/118/118/sports/"></div>
       <div class="span1"><img src="http://placehold.it/118x118"></div>
       <div class="span1"><img src="http://placehold.it/118x118"></div>
-      <div class="span1"><img src="http://placehold.it/118x118"></div>  
       <div class="span1"><img src="http://placehold.it/118x118"></div>
-      <div class="span1"><img src="http://placehold.it/118x118"></div>  
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
       <div class="span1"><img src="http://placehold.it/118x118"></div>
     </div>
 
@@ -239,7 +268,7 @@
 
       <div class="span3"><img src="http://lorempixel.com/328/328/"></div>
 
-      <div class="span1"><img src="http://placehold.it/104x104"></div>      
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
       <div class="span1"><img src="http://lorempixel.com/104/104"></div>
       <div class="span1"><img src="http://placehold.it/104x104"></div>
 
