@@ -1,199 +1,318 @@
-
 <!DOCTYPE html>
-<!--[if IE 8]>               <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-
+<html>
 <head>
-    <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>Foundation 4</title>
+  <title>Testing Grid 8/9</title>
 
-  <link rel="stylesheet" href="styles/foundation.css" />
-  <script data-main="scripts/main" src="scripts/libs/require.js"></script>
+  <link rel="stylesheet" href="/styles/style.css">
 
+  <!-- Typekit Fonts -->
+
+  <script type="text/javascript" src="//use.typekit.net/mpp5rch.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+  <!-- TODO: export to SASS -->
+
+<style type="text/css">
+
+  /* poor programmer's reset */
+  *, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  }
+
+  div {padding: 0; margin: 0;}
+
+
+  /* create grid 1000px wide */
+  .content {
+    width:1008px;
+    margin: auto;
+  }
+
+  .text {
+    background-color:#ccc;
+    padding:16px;
+  }
+
+  .low {
+    height: 10px !important;
+  }
+
+  .row8 {
+    float: left;
+    width: 1008px;
+  }
+
+  .row9 {
+    float:left;
+    width: 1008px;
+  }
+
+  .row8 .span4 {
+    float: left;
+    width: 496px;
+    height: 496px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  .row8 .span2 {
+    float: left;
+    width: 244px;
+    height: 244px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  .row8 .span1 {
+    float: left;
+    width: 118px;
+    height: 118px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  .row9 .span5 {
+    float: left;
+    width: 552px;
+    height: 552px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  .row9 .span4 {
+    float: left;
+    width: 440px;
+    height: 440px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  .row9 .span3 {
+    float: left;
+    width: 328px;
+    height: 328px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  .row9 .span2 {
+    float: left;
+    width: 216px;
+    height: 216px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+  .row9 .span1 {
+    float: left;
+    width: 104px;
+    height: 104px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+</style>
 </head>
 <body>
-<div class="row">
-  <div class="large-12 columns">
+  <div class="content">
 
-    <!-- Navigation -->
 
-      <nav class="top-bar">
-        <ul class="title-area">
-          <!-- Title Area -->
-          <li class="name">
-            <h1>
-              <a href="#">
-                Top Bar Title
-              </a>
-            </h1>
-          </li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-        </ul>
 
-        <section class="top-bar-section">
-          <ul class="left">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-          </ul>
 
-          <ul class="right">
-            <li class="search">
-              <form>
-                <input type="search">
-              </form>
-            </li>
+    <!-- Row 8 -->
 
-            <li class="has-button">
-              <a class="small button" href="#">Search</a>
-            </li>
-          </ul>
-        </section>
-    </nav>
+    <div class="row9">
 
-    <!-- End Navigation -->
+      <!-- kleine bunte Reihe -->
+      <div class="span1 low bg-color0"></div>
+      <div class="low span1 bg-color1"></div>
+      <div class="low span1 bg-color2"></div>
+      <div class="low span1 bg-color3"></div>
+      <div class="low span1 bg-color4"></div>
+      <div class="low span1 bg-color5"></div>
+      <div class="low span1 bg-color6"></div>
+      <div class="low span1 bg-color7"></div>
+      <div class="low span1 bg-color8"></div>
 
     </div>
+
+    <div class="row8">
+
+      <div class="span4"><img src="http://lorempixel.com/496/496/sports/"></div>
+
+      <div class="span4 grey text">
+
+        <h1 class="color0">Web & Apps von klikk.me</h1>
+        <h2>Wir entwickeln Apps und Webseiten</h2>
+
+        <!-- start slipsum code -->
+
+        <p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit.  </p>
+
+        <h2>I can do that</h2>
+        <p>Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my name printed on it? Do you see a little Asian child with a blank expression on his face sitting outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's what you see at a toy store. And you must think you're in a toy store, because you're here shopping for an infant named Jeb. </p>
+
+        <!-- end slipsum code -->
+
+      </div>
+
+  </div>
+
+  <div class="row9">
+    <!-- 3er doppel Reihe -->
+    <div class="span3"><img src="http://lorempixel.com/328/328/sports/"></div>
+    <div class="span3"><img src="http://placehold.it/328x328"></div>
+    <div class="span3"><img src="http://placehold.it/328x328"></div>
+
+    <div class="span3"><img src="http://placehold.it/328x328"></div>
+    <div class="span3"><img src="http://placehold.it/328x328"></div>
+    <div class="span3"><img src="http://placehold.it/328x328"></div>
   </div>
 
 
-  <div class="row">
-    <div class="large-12 columns">
+  <div class="row8">
+      <!-- <div class="span2"><img src="http://lorempixel.com/244/244/sports/"></div>
+      <div class="span2"><img src="http://placehold.it/244x244"></div>
+      <div class="span2"><img src="http://lorempixel.com/244/244/sports/"></div>
+      <div class="span2"><img src="http://placehold.it/244x244"></div> -->
 
-    <!-- Desktop Slider -->
-
-      <div class="hide-for-small">
-        <div id="featured" data-orbit>
-              <img src="http://placehold.it/1000x400&text=Slide Image 1" alt="slide image">
-              <img src="http://placehold.it/1000x400&text=Slide Image 2" alt="slide image">
-              <img src="http://placehold.it/1000x400&text=Slide Image 3" alt="slide image">
-          </div>
-        </div>
-
-    <!-- End Desktop Slider -->
-
-
-    <!-- Mobile Header -->
-
-
-    <div class="row">
-      <div class="small-12 show-for-small"><br>
-        <img src="http://placehold.it/1000x600&text=For Small Screens" />
+      <div class="span2">
+        <div class="span2"><img src="http://lorempixel.com/244/244/sports/"></div>
+        <div class="span2"><img src="http://placehold.it/244x244"></div>
       </div>
+
+      <div class="span4"><img src="http://placehold.it/496x496"></div>
+
+      <div class="span2"><img src="http://lorempixel.com/244/244/sports/"></div>
+      <div class="span2"><img src="http://placehold.it/244x244"></div>
+
+      <!-- kleine graue Reihe -->
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+
+      <!-- kleine graue Reihe -->
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
     </div>
 
 
-  <!-- End Mobile Header -->
+
+    <div class="row8">
+      <!-- 4er dreifach Reihe -->
+      <div class="span2"><img src="http://lorempixel.com/244/244/fashion/"></div>
+      <div class="span2"><img src="http://placehold.it/244x244"></div>
+      <div class="span2"><img src="http://lorempixel.com/244/244/fashion/"></div>
+      <div class="span2"><img src="http://placehold.it/244x244"></div>
+
+      <div class="span2"><img src="http://placehold.it/244x244"></div>
+      <div class="span2"><img src="http://lorempixel.com/244/244/sports/"></div>
+      <div class="span2"><img src="http://placehold.it/244x244"></div>
+      <div class="span2"><img src="http://lorempixel.com/244/244/sports/"></div>
+
+      <div class="span2"><img src="http://lorempixel.com/244/244/food/"></div>
+      <div class="span2"><img src="http://placehold.it/244x244"></div>
+      <div class="span2"><img src="http://lorempixel.com/244/244/food/"></div>
+      <div class="span2"><img src="http://placehold.it/244x244"></div>
 
     </div>
-  </div><br>
 
-  <div class="row">
-    <div class="large-12 columns">
-      <div class="row">
+    <div class="row9">
+      <!-- 3er Fraktal-->
+      <div class="span3"><img src="http://lorempixel.com/328/328?"></div>
+      <div class="span3"><img src="http://placehold.it/328x328"></div>
 
-    <!-- Thumbnails -->
+      <div class="span1"><img src="http://lorempixel.com/104/104/"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
 
-        <div class="large-3 small-6 columns">
-          <img src="http://placehold.it/250x250&text=Thumbnail" />
-          <h6 class="panel">Description</h6>
-        </div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://lorempixel.com/104/104/"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
 
-        <div class="large-3 small-6 columns">
-          <img src="http://placehold.it/250x250&text=Thumbnail" />
-          <h6 class="panel">Description</h6>
-        </div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://lorempixel.com/104/104/"></div>
 
-        <div class="large-3 small-6 columns">
-          <img src="http://placehold.it/250x250&text=Thumbnail" />
-          <h6 class="panel">Description</h6>
-        </div>
 
-        <div class="large-3 small-6 columns">
-          <img src="http://placehold.it/250x250&text=Thumbnail" />
-          <h6 class="panel">Description</h6>
-        </div>
+      <div class="span3"><img src="http://lorempixel.com/328/328?"></div>
+      <div class="span3"><img src="http://placehold.it/328x328"></div>
 
-    <!-- End Thumbnails -->
+      <div class="span1"><img src="http://lorempixel.com/104/104/"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
 
-      </div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://lorempixel.com/104/104/"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://lorempixel.com/104/104/"></div>
     </div>
+
+    <div class="row8">
+      <div class="span4"><img src="http://lorempixel.com/496/496/sports/"></div>
+
+      <div class="span2"><img src="http://placehold.it/244x244"></div>
+      <div class="span2"><img src="http://lorempixel.com/244/244/sports/"></div>
+
+      <div class="span2"><img src="http://lorempixel.com/244/244/sports/"></div>
+
+      <div class="span1"><img src="http://lorempixel.com/118/118/sports/"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+
+      <div class="span1"><img src="http://lorempixel.com/118/118/sports/"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+
+      <div class="span2"><img src="http://placehold.it/244x244"></div>
+
+      <div class="span2"><img src="http://placehold.it/244x244"></div>
+
+      <div class="span1"><img src="http://lorempixel.com/118/118/sports/"></div>
+      <div class="span1"><img src="http://lorempixel.com/118/118/sports/"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+      <div class="span1"><img src="http://placehold.it/118x118"></div>
+    </div>
+
+
+    <div class="row9">
+      <div class="span5"><img src="http://lorempixel.com/552/552?"></div>
+
+      <div class="span3"><img src="http://lorempixel.com/328/328/"></div>
+
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://lorempixel.com/104/104"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+
+      <div class="span2"><img src="http://lorempixel.com/216/216/"></div>
+      <div class="span2"><img src="http://placehold.it/216x216"></div>
+
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+      <div class="span1"><img src="http://placehold.it/104x104"></div>
+
+    </div>
+
   </div>
-
-
-
-  <div class="row">
-    <div class="large-12 columns">
-      <div class="row">
-
-    <!-- Content -->
-
-        <div class="large-8 columns">
-          <div class="panel radius">
-
-          <div class="row">
-          <div class="large-6 small-6 columns">
-
-            <h4>Header</h4><hr/>
-            <h5 class="subheader">Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Donec dignissim nibh fermentum odio ornare sagittis.
-            </h5>
-
-          <div class="show-for-small" align="center">
-            <a href="#" class="small radius button">Call To Action!</a><br>
-
-            <a href="#" class="small radius button">Call To Action!</a>
-          </div>
-
-          </div>
-          <div class="large-6 small-6 columns">
-
-            <p>Suspendisse ultrices ornare tempor. Aenean eget ultricies libero. Phasellus non ipsum eros. Vivamus at dignissim massa. Aenean dolor libero, blandit quis interdum et, malesuada nec ligula. Nullam erat erat, eleifend sed pulvinar ac. Suspendisse ultrices ornare tempor. Aenean eget ultricies libero.
-          </p>
-        </div>
-
-        </div>
-        </div>
-        </div>
-
-        <div class="large-4 columns hide-for-small">
-
-          <h4>Get In Touch!</h4><hr/>
-
-          <a class="large button expand" href="#">
-            Call To Action!
-          </a>
-
-          <a class="large button expand" href="#">
-            Call To Action!
-          </a>
-
-        </div>
-
-    <!-- End Content -->
-
-      </div>
-    </div>
-  </div>
-
-    <!-- Footer -->
-
-  <footer class="row">
-    <div class="large-12 columns">
-      <hr>
-      <div class="row">
-        <div class="large-6 columns">
-          <p>&copy; Copyright no one at all. Go to town.</p>
-        </div>
-        <div class="large-6 columns">
-          <ul class="inline-list right">
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>    
 </body>
-</html>
