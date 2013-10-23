@@ -7,7 +7,7 @@ Creating Squares on such a system looks really interesting.
 ## Dependencies
 
 After cloning this repository run
-```sh	
+```sh
 npm install -g bower
 npm install
 grunt server
